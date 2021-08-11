@@ -138,7 +138,7 @@ function clearItems () {
 // ****** LOCAL STORAGE **********
 
 // add to local Storage
-unction addToLocalStorage(id, value) {
+function addToLocalStorage(id, value) {
   const grocery = { id, value };
   let items = getLocalStorage();
   items.push(grocery);
